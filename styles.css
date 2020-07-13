@@ -1,9 +1,9 @@
-.row-header{
+.row-header {
     margin: 0px auto;
     padding: 0px auto;
 }
 
-.row-content{
+.row-content {
     margin: 0px auto;
     padding: 50px 0px 50px 0px;
     border-bottom: 1px ridge;
@@ -11,59 +11,85 @@
 }
 
 .footer{
-    background-color: #FFFF00;
+    background-color: #D1C4E9;
     margin: 0px auto;
     padding: 20px 0px 20px 0px;
 }
 
 .jumbotron{
     padding: 70px 30px 70px 30px;
-    marging: 0px auto;
-    background: #C0C0C0;
-    color: floralwhite;
+    margin: 0px auto;
+    
+    color: rgb(7, 7, 7);
 }
 
 .address{
     font-size: 80%;
     margin: 0px;
-    color: #0f0f0f;
+    color: #f10e0e
 }
 
-.body{
-    padding: 50px 0px 0px 0px;
-    z-index: 0
+.bg-me{
+    background-color: #333333;
+    
 }
 
-.navbar-dark{
-    background-color: #0000FF;
+.btn-me {
+    background-color: rgb(207, 207, 245);
+    color: white;
+    
 }
 
-.tab-content{
-    border-left: 1px solid #ddd;
-    border-right: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
-    border-top: 1px solid #ddd;
-    padding: 10px;
+.tablemine{
+    text-align: center;
 }
 
-.carousel{
-    background: #512DA8;
-
+.collegename {
+    text-align: left;
 }
 
-.carousel-item{
-  height: 300px;
+.mytablecolour{
+    background-color: fuchsia;
+}
+.myfont{
+    color: floralwhite;
 }
 
-.carousel-item img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-height: 300px;
+.mybuttoncolour{
+    background-color: rgb(255, 185, 8);
 }
 
-#carouselButton{
-  right: 0px;
-  position: absolute;
-  bottom: 0px;
+.thisonly{
+    font-size: x-large;
 }
+
+.homepageupsection {
+    padding: 12px 0;
+    /* background: #0071E3; */
+    color: #ffffff;
+    margin-top: 0;
+    font-size: 14px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .blueback {
+        background: #0071E3;
+        }
+
+
+        div.polaroid {
+            width: 250px;
+            box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 30px 0 rgba(0, 0, 0, 0.19);
+            text-align: center;
+          }
+          
+          div.container {
+            padding: 10px;
+          }
+.bgdown{
+    background: #f5f5f7;
+}
+
