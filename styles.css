@@ -20,7 +20,8 @@
     padding: 70px 30px 70px 30px;
     margin: 0px auto;
 
-    color: rgb(7, 7, 7);
+    color: rgb(8, 8, 8);
+    background-color: #FFE4C4;
 }
 
 .address{
@@ -109,7 +110,7 @@
 .column {
   float: left;
   width: 50%;
-  padding: 0 50px;
+  padding: 0 20px;
 }
 
 .row {margin: 0 -10px;}
@@ -120,17 +121,45 @@
   clear: both;
 }
 
-@media screen and (max-width: 600px) {
-  .column {
+@media screen and (max-width:768px) {
+img {
+    width:100%;
+}
+.container {
+    max-width:100%;
     width: 100%;
-    display: block;
-    margin-bottom: 20px;
-  }
+}
+.col-md-3{
+    width:100%;
+    float:left;
+    margin:0;
+}
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 90px;
+  text-align: center;
+  background-color: #f1f1f1;
+  margin: 0 auto;
+}
+
+html, body{
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.topnav-right {
+  float: right;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
 }
 
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 100px;
-  text-align: center;
-  background-color: #f1f1f1;
+        margin: 0 auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
 }
