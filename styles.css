@@ -126,7 +126,7 @@ img {
     width:100%;
 }
 .container {
-    max-width:100%;
+    max-width:70%;
     width: 100%;
 }
 .col-md-3{
@@ -152,14 +152,30 @@ html, body{
   float: right;
 }
 
-.container {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-}
-
 .card {
         margin: 0 auto; /* Added */
         float: none; /* Added */
         margin-bottom: 10px; /* Added */
+}
+
+.align {
+  margin:auto;
+}
+
+.home_padding{
+  padding-left:20px
+}
+
+.fest_info{
+text-align: center;
+margin:0 auto;
+}
+
+
+.jumbotron{
+    padding: 70px 30px 70px 30px;
+    margin: 0px auto;
+
+    color: rgb(8, 8, 8);
+    background-color: #FFE4C4;
 }
