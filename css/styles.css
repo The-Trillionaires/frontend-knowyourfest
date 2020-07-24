@@ -137,7 +137,7 @@ img {
 }
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 90px;
+  padding: 80px;
   text-align: center;
   background-color: #f1f1f1;
   margin: 0 auto;
@@ -169,6 +169,8 @@ html, body{
 .fest_info{
 text-align: center;
 margin:0 auto;
+margin-bottom: 20px;
+margin-top: 20px;
 }
 
 
